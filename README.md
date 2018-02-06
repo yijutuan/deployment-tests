@@ -1,3 +1,3 @@
-# Scenario 1
+# Scenario 4
 
-Three hosting services, CPUs add up to 2.
+Three hosting services with dependencies.
