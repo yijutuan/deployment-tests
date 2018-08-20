@@ -1,2 +1,2 @@
 # Scenario 5
-Hosting service with scale: 3
+wedeploy.json contains private wedeploy docker image
