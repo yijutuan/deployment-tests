@@ -1,0 +1,4 @@
+{
+	"id": "alpine2",
+	"dependencies": ["alpine1"]
+}
