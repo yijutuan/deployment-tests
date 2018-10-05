@@ -1,6 +1,0 @@
-{
-	"id": "alpine1",
-	"cpu": 0.5,
-	"memory": 216,
-	"customDomains": ["test.com"]
-}
