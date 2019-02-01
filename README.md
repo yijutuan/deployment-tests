@@ -1,4 +1,4 @@
 # Deployment Tests
-## 3-services-with-dependencies
+## deploy-false
 
-Three hosting services with dependencies, CPUs add up to 1.
+Three hosting services, hosting1 has "deploy" set to false for "infra" environment.

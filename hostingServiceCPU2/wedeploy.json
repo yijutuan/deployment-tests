@@ -1,5 +1,0 @@
-{
-  "id": "hostingServiceCPU2",
-  "cpu": 0.4,
-  "dependencies": ["hostingServiceCPU3"]
-}
