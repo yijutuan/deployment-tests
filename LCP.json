@@ -1,20 +1,35 @@
 {
   "id": "ui",
-  "loadBalancer": {
-    "targetPort": 80
-  },
-  "readinessProbe": {
-    "httpGet": {
-      "path": "/",
-      "port": 80
-    }
-  },
-  "livenessProbe": {
-    "httpGet": {
-      "path": "/",
-      "port": 80
-    }
-  },
   "memory": 512,
-  "cpu": 1
+  "cpu": 1,
+  "ports": [
+    {
+      "port": 3306,
+      "external": false
+    },
+    {
+      "port": 3000,
+      "external": false
+    },
+    {
+      "port": 1521,
+      "external": false
+    },
+    {
+      "port": 3307,
+      "external": false
+    },
+    {
+      "port": 5432,
+      "external": false
+    },
+    {
+      "port": 5000,
+      "external": false
+    },
+    {
+      "port": 50000,
+      "external": false
+    }
+  ]
 }
