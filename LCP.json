@@ -3,6 +3,10 @@
   "loadBalancer": {
     "targetPort": 80
   },
+  "loadBalancer": {
+    "targetPort": 80,
+    "customDomains": ["qatest.test.com"]
+  },
   "readinessProbe": {
     "httpGet": {
       "path": "/",
@@ -16,5 +20,5 @@
     }
   },
   "memory": 512,
-  "cpu": 2
+  "cpu": 1
 }
