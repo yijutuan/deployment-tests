@@ -19,6 +19,6 @@
   "memory": 512,
   "cpu": 1,
   "volumes": {
-    "storage1": "/opt/storage1",
+    "storage2": "/opt/storage2"
   }
 }
