@@ -2,5 +2,5 @@
 	"id": "alpine2",
 	"cpu": 0.5,
 	"memory": 216,
-	"customDomains": ["test.com"]
+	"dependencies": ["alpine1"]
 }

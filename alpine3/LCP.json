@@ -2,5 +2,8 @@
 	"id": "alpine3",
 	"cpu": 0.1,
 	"memory": 216,
-	"customDomains": ["test.com"]
+	"dependencies": ["alpine2"],
+	"loadBalancer": {
+		"customDomains": ["test.com"]
+	}
 }
