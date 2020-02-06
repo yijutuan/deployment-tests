@@ -1,5 +1,5 @@
 {
-  "id": "ui",
+  "id": "hosting1",
   "loadBalancer": {
     "targetPort": 80
   },
