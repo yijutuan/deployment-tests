@@ -1,7 +1,58 @@
 {
   "id": "ui",
   "loadBalancer": {
-    "targetPort": 80
+    "targetPort": 80,
+    "defaultBackend": true,
+    "certs": [
+      {
+        "customDomains": ["my-domain.com"]
+      },
+      {
+        "customDomains": ["my-domain.com"]
+      },
+      {
+        "customDomains": ["my-domain.com"]
+      },
+      {
+        "customDomains": ["my-domain.com"]
+      },
+      {
+        "customDomains": ["my-domain.com"]
+      },
+      {
+        "customDomains": ["my-domain.com"]
+      },
+      {
+        "customDomains": ["my-domain.com"]
+      },
+      {
+        "customDomains": ["my-domain.com"]
+      },
+      {
+        "customDomains": ["my-domain.com"]
+      },
+      {
+        "customDomains": ["my-domain.com"]
+      },
+      {
+        "customDomains": ["my-domain.com"]
+      },
+      {
+        "customDomains": ["my-domain.com"]
+      },
+      {
+        "customDomains": ["my-domain.com"]
+      },
+      {
+        "customDomains": ["my-domain.com"]
+      },
+      {
+        "customDomains": ["my-domain.com"]
+      },
+      {
+        "customDomains": ["my-domain.com"]
+      }
+    ]
   },
   "readinessProbe": {
     "httpGet": {
